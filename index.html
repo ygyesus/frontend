@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Task Manager</h1>
+    <div class="container">
+
+    </div>
+    <button class="new-task">New Task</button>
+    
+    <dialog>
+        <form method="dialog">
+            <h3>New Task</h3>
+            <label>
+                Title:
+                <input required type="text" placeholder="Task title..." class="task-title">
+            </label>
+
+            <div class="read">
+                You've completed this task<br>
+                <label><input type="radio" class="yes" name="task-status"/> Yes</label>
+                <label><input type="radio" class="no" name="task-status" checked/> No</label>
+            </div>
+
+            </label>
+            <button class="submit">Submit</button>
+            <button class="close">Close</button>          
+                     
+        </form>
+        </form>
+    </dialog>
+
+    <form class="filter-form">
+        <label><input type="radio" name="filter" class="filter-completed">Show Completed</label>
+        <label><input type="radio" name="filter" class="filter-pending">Show Pending</label>
+        <label><input type="radio" checked name="filter" class="filter-all">Show All</label>
+    </form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    margin: 25px;
+}
+
+form, .container, button, input{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+button{
+    margin-right: 10px;
+}
+
+button, label{
+    cursor: pointer;
+
+}
+.new-task, .task-card, .filter-form{
+    margin-left: 50px;
+
+}
+
+body>form{
+    margin-top: 45px;
+}
+.task-card{
+    border: 2px solid black;
+
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.completed{
+    background-color: lightgreen;
+}
+
+input:invalid{
+    border-color: red;
+    background-color: pink;
+    
+}
+
+.filter-form{
+    margin-top: 15px;
+}
